@@ -1,0 +1,89 @@
+body{
+  background-color: rgb(46, 46, 81);
+  color: #fff;
+  font-size: 62.5%;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding-bottom: 1.5rem;
+  text-transform: uppercase;
+  /* font-weight: 900; */
+}
+
+form{
+ margin-top: 25px;
+}
+
+input{
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.container + div {
+  margin: 0.25em auto;
+}
+
+.container {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  position: absolute;
+  background-color: rgb(57, 57, 88);
+  background-color: #374151;;
+  padding: 4em;
+  border-radius: 3em;
+  margin: auto;
+}
+
+.handshake #the-handshake span {
+  opacity: 0.75;
+} 
+
+
+#secret-handshake {
+  font-size: 1.5rem;
+  padding: 0.75em;
+  border-radius: 15px;
+  color: #fff;
+  background-color: transparent;
+  border-style: none;
+  margin: 1rem 1.25rem auto;
+}
+
+#secret-handshake:hover {
+  opacity: 0.5;
+}
+
+#secret-handshake:active {
+  transform: scale(0.93);
+}
+
+
+#number-input {
+  width: 320px;
+  height: 50px;
+  margin: 1.25rem 0 auto;
+  border-radius: 1rem;
+  background-color: #1f2937;
+  color: #eee;
+  padding: 1rem;
+  font-size: 1.25rem
+}
+
+#number-input::placeholder{
+  font-size: 1rem;
+  color:  #6b7280;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+#the-handshake {
+  font-size: 1.5rem;
+  margin: 1rem auto;
+  color: antiquewhite;
+}
